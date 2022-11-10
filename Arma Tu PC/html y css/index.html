@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tek-D</title>
+    <link rel="shortcut icon" href="images/Tek-D.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Arma Tu PC/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="barra">
+            <a href="index.html"><img src="images/Tek-D.png" alt="logo" class="logo"></a>
+            <a href="#" class="barraOpciones">Arma Tu PC</a>
+            <a href="#" class="barraOpciones">Nosotros</a>
+            <a href="#" class="barraOpciones">Contacto</a>
+            <a href="#" class="barraOpciones">Iniciar Sesión</a>
+            <a href="#" class="barraOpciones">Crear Cuenta</a>
+        </nav>
+
+    <hr>
+
+    <section class="superior">
+        <h1 class="titulo">Arma la PC que siempre soñaste</h1>
+
+        <h5 class="titulo">Contamos con los componentes más populares del mercado</h5>
+
+    </section>
+    </header>
+
+    <hr>
+
+    <section class="importante">
+        <div class="importanteMensaje">
+            <h2 class="subtitulo">Es importante saber que...</h2>
+
+            <nav>
+                <ul>
+                    <li>Nosotros solo proporcionamos los componentes, tú debes cerciorarte que los componentes sean compatibles entre sí</li>
+                    <li>No todos los componentes visibles están disponibles</li>
+                    <li>Dependiendo de la forma de envío se cobrará cierta cantidad</li>
+                </ul>
+            </nav>
+        </div>
+        
+        <img src="/Arma Tu PC/images/computadora2.webp" alt="computadora2" class="computadora2">
+    </section>
+
+    <hr>
+
+    <section class="armaPC">
+        <h2>Arma tu PC</h2>
+
+        <p>Escoge tus componentes</p>
+
+        <div class="armaPCOpciones">
+            <div>
+                <form action="">
+                    <h3>Procesador</h3>
+                    <label for="procesador">Elige tu procesador</label> <br>
+                    <input list="procesador" class="solicitud">
+                    <datalist id="procesador">
+                        <option value="AMD Ryzen 3 3200G"></option>
+                        <option value="AMD Ryzen 5 5600X"></option>
+                        <option value="AMD Ryzen 9 5900X"></option>
+                        <option value="AMD Ryzen 9 5950X"></option>
+                        <option value="Intel Core i5-12600K"></option>
+                        <option value="Intel Core i5-11600K"></option>
+                        <option value="Intel Core i5-10400F"></option>
+                        <option value="Intel Core i3-10100F"></option>
+                    </datalist>
+
+                    <h3>Tarjeta Gráfica</h3>
+                    <label for="tarjetaGrafica">Elige tu Tarjeta Gráfica</label> <br>
+                    <input list="tarjetaGrafica" class="solicitud">
+                    <datalist id="tarjetaGrafica">
+                        <option value="Nvidia GTX 1660"></option>
+                        <option value="RTX 2070"></option>
+                        <option value="Radeon Rx 570"></option>
+                        <option value="Rtx 2080 Super"></option>
+                        <option value="RTX 3080"></option>
+                        <option value="RTX 3070"></option>
+                    </datalist>
+
+                    <h3>Tarjeta Madre</h3>
+                    <label for="tarjetaMadre">Elige tu Tarjeta Madre</label> <br>
+                    <input list="tarjetaMadre" class="solicitud">
+                    <datalist id="tarjetaMadre">
+                        <option value="GIGABYTE B450 AORUS PRO WIFI"></option>
+                        <option value="MSI - Tarjeta Madre - B450 GAMING PLUS MAX"></option>
+                        <option value="Asus Tarjeta Madre Prime B460M-A"></option>
+                        <option value="Asus Tarjeta Madre AMD B550 ROG Strix B550-A"></option>
+                        <option value="MSI Tarjeta Madre ATX Z590 Gaming Force"></option>
+                        <option value="Asus Tarjeta Madre AMD A520 TUF Gaming"></option>
+                        <option value="Asus Tarjeta Madre Intel Z790"></option>
+                    </datalist>
+
+                    <h3>Memoria RAM</h3>
+                    <input type="radio" name="memoriaRAM" id="2GB" value="2GB">
+                    <label for="2GB">2GB</label> <br>
+                    <input type="radio" name="memoriaRAM" id="4GB" value="4GB">
+                    <label for="4GB">4GB</label> <br>
+                    <input type="radio" name="memoriaRAM" id="8GB" value="8GB">
+                    <label for="8GB">8GB</label> <br>
+                    <input type="radio" name="memoriaRAM" id="16GB" value="16GB">
+                    <label for="16GB">16GB</label> <br>
+                    <input type="radio" name="memoriaRAM" id="32GB" value="32GB">
+                    <label for="32GB">32GB</label> <br>
+                    <input type="radio" name="memoriaRAM" id="64GB" value="64GB">
+                    <label for="64GB">64GB</label> <br>
+
+                    <h3>Disipador</h3>
+                    <label for="disipador">Elige tu disipador</label> <br>
+                    <input list="disipador" class="solicitud">
+                    <datalist id="disipador">
+                        <option value="De Stock"></option>
+                        <option value="Arctic Freezer 13 X"></option>
+                        <option value="Cooler Master Hyper 212X"></option>
+                        <option value="Arctic Freezer 34"></option>
+                        <option value="NOX Hummer 224 RGB"></option>
+                        <option value="Arctic Freezer 50"></option>
+                        <option value="Cryorig H7"></option>
+                        <option value="DeepCool AS500"></option>
+                        <option value="Noctua NH-U12S"></option>
+                    </datalist>
+
+                    <h3>Fuente de poder</h3>
+                    <label for="fuenteDePoder">Elige tu fuente de poder</label> <br>
+                    <input list="fuenteDePoder" class="solicitud">
+                    <datalist id="fuenteDePoder">
+                        <option value="500 watts de EVGA"></option>
+                        <option value="600 watts de ACTECK"></option>
+                        <option value="850 watts de Thermaltake"></option>
+                        <option value="1000 watts de Asus ROG-STRIX"></option>
+                    </datalist>
+
+                    <h3>Gabinete</h3>
+                    <label for="gabinete">Elige tu gabinete</label> <br>
+                    <input list="gabinete" class="solicitud">
+                    <datalist id="gabinete">
+                        <option value="OCELOT GAMING Gabinete OGEC02"></option>
+                        <option value="YAGUARET Gabinete Gamer Modelo Bushido"></option>
+                        <option value="YEYIAN Gabinete Haizen 2500"></option>
+                        <option value="Corsair Case 5000D Airflow TG Mid Tower Black"></option>
+                        <option value="YEYIAN Gabinete Gaming Stahl 900"></option>
+                        <option value="NZXT H510 Flow CA-H52FB-01"></option>
+                    </datalist>
+
+                </div>
+
+                <div class="datos">
+                    <h2>Ingresa tus datos</h2>
+                    <label for="nombre">Nombre</label> <br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" class="solicitudDatos"> <br><br>
+
+                    <label for="correoElectronico">Correo Electrónico</label> <br>
+                    <input type="email" name="correoElectronico" id="correoElectronico" placeholder="Ingrese su correo electrónico" class="solicitudDatos"> <br><br>
+
+                    <label for="telefono">Teléfono</label> <br>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su teléfono" class="solicitudDatos"> <br><br>
+
+                    <label for="direccion">Dirección</label> <br>
+                    <input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección" class="solicitudDatos"> <br><br>
+
+                    <input type="submit" onclick="alert('Su pedido fue realizado con éxito');" class="boton">
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

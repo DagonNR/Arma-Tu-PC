@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.barra{
+    background-color: #A1D6E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.barraOpciones{
+    text-decoration: none;
+    color: #F1F1F2;
+    flex-wrap: wrap;
+}
+
+.superior{
+    background-color: #F1F1F2;
+    height: 250px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-image: url("https://i0.wp.com/thepcmaster.net/wp-content/uploads/2020/04/pc_gamer.jpeg?fit=1024%2C682&ssl=1");
+    background-size: 800px;
+    background-position: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.computadoraImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.computadora{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+
+.importante{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.importanteMensaje{
+    background-color: #BCBABE;
+    width: 450px;
+    border-radius: 25px;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.subtitulo{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.computadora2{
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.armaPC{
+    background-color: #F1F1F2;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.armaPCOpciones{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.solicitud{
+    border-radius: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: #BCBABE;
+    color: white;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.datos{
+    background-color: #BCBABE;
+    max-height: 430px;
+    width: 300px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.solicitudDatos{
+    border-radius: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: #F1F1F2;
+    color: black;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.boton{
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    flex-wrap: wrap;
+}
